@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt- BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="nav-flex">
+        <nav class="container-grid nav-flex__elements">
+            <div class="nav-flex__logo-senai">
+                <img src="./assets/images/senai.png" alt="Logo SENAI">
+            </div>
+            <div class="nav-flex__links">
+                <ul class="nav-flex__links-list">
+                    <li>
+                        <a href="index.html"> Home</a>
+                    </li>
+                    <li>
+                        <a href="#main"> Conteúdo </a>
+                    </li>
+                    <li>
+                        <a href="#footer">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main">
+        <div>
+            <h2>
+                Seja bem vindo!
+            </h2>
+        </div>
+
+        <section class="container-grid">
+
+            <section class="main-flex">
+                <div class="main-flex__form">
+                    <h2 id="title-form">
+                        Cadastro de Série
+                    </h2>
+                    <form action="" class="main-flex__form-element" id="formValidation">
+                        <div class="main-flex__inputs">
+                            <label for=""> Informe o nome da série:</label>
+                            <input type="text" placeholder="Ex: House Of The Dragon" id="nomeSerie">
+                        </div>
+                        <div class="main-flex__inputs">
+                            <label for="">Informe a quantidade de temporadas:</label>
+                            <input type="number" placeholder="Ex: 10" id="temporadas">
+                        </div>
+                        <div class="main-flex__inputs">
+                            <label for="">Informe o nome do estudio:</label>
+                            <input type="text" placeholder="Ex: Hbo Max" id="produtora">
+                        </div>
+                        <div class="main-flex__inputs">
+                            <label for="">Informe o ano do lançamento:</label>
+                            <input type="number" placeholder="Ex: 2012" id="anoLancamento">
+                        </div>
+
+                        <div class="main-flex__button">
+                            <button type="submit" id="btnCadastrar" >
+                                Cadastrar
+                            </button>
+
+                            <button>
+                                Cancelar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section class="main-flex-listagem">
+                <div class="main-flex-listagem__flex">
+                    <h2>
+                        Lista de Séries
+                    </h2>
+
+                    <table class="main-flex-listagem__flex-table">
+                        <thead>
+                            <tr>
+                                <th>Nome Série</th>
+                                <th>Num Temporadas</th>
+                                <th>Ano Lançamento</th>
+                                <th>Produtora</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr id="listaSeries">
+                                <!-- aqui vai o conteúdo do backend -->
+                            </tr>
+                        </tbody>
+                    </table>
+                </d>
+            </section>
+        </section>
+
+    </main>
+    <footer id="footer">
+        <section class="container-grid footer-flex">
+            <div class="footer-flex__info">
+                <h1>
+                    Mais Informações:
+                </h1>
+                <p>
+                    Escola: Senai Conde José Vicente de Azevedo
+                </p>
+                <p>
+                    Telefone: (11) 9999-7654
+                </p>
+                <p>
+                    Endereço: Rua Moreira de Godói, 226, Ipiranga-SP
+                </p>
+            </div>
+            <div class="footer-flex__info">
+                <h1>
+                    Contato:
+                </h1>
+                <p>
+                    Nome: Guilherme Amorim
+                </p>
+                <p>
+                    Telefone: (11) 98503-3670
+                </p>
+                <p>
+                    Email: cezarguilherme03@gmail.com
+                </p>
+            </div>
+        </section>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+    <script type="module" src="./scripts/post.js"></script>
+    
+</body>
+
+</html>
