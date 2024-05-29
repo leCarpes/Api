@@ -1,0 +1,16 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "npx json-server --watch db.json --port 8082"
+  },
+  "keywords": [],
+  "author": "Letícia Carpes",
+  "license": "ISC",
+  "description": "Json Server",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.0"
+  }
+}

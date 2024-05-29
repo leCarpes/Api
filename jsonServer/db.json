@@ -1,0 +1,34 @@
+{
+    "alunos": [
+      {
+        "id": "1",
+        "nome": "Leticia",
+        "idade": 28,
+        "genero": "Feminino"
+      },
+      {
+        "id": "3",
+        "nome": "Eric",
+        "idade": 18,
+        "genero": "Masculino",
+        "projeto_id": 1
+      }
+    ],
+    "projetos": [
+      {
+        "id": "1",
+        "tituloProjeto": "Calculadora com JS",
+        "prazoProjeto": "2 dias"
+      },
+      {
+        "id": "2",
+        "tituloProjeto": "Criar um formulário com DOM",
+        "prazoProjeto": "5 dias"
+      },
+      {
+        "id": "3",
+        "tituloProjeto": "Consumir",
+        "prazoProjeto": "6 dias"
+      }
+    ]
+  }

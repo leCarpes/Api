@@ -1,0 +1,25 @@
+{
+  "serie": [
+    {
+      "id": "1",
+      "nomeSerie": "One Pice",
+      "numTemporadas": "20 temporadas",
+      "anoLancamento": "1999",
+      "estudio": "Wit Studio"
+    },
+    {
+      "id": "2",
+      "nomeSerie": "stranger things",
+      "numTemporadas": "4 temporadas",
+      "anoLancamento": "2016",
+      "estudio": "Netflix"
+    },
+    {
+      "id": "3",
+      "nomeSerie": "La Casa de Papel",
+      "numTemporadas": "5 temporadas",
+      "anoLancamento": "2017",
+      "estudio": "Netflix"
+    }
+  ]
+}
