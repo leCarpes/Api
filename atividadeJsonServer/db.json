@@ -20,6 +20,27 @@
       "numTemporadas": "5 temporadas",
       "anoLancamento": "2017",
       "estudio": "Netflix"
+    },
+    {
+      "id": null,
+      "nomeSerie": "sítio do pica pau amarelo",
+      "numTemporadas": "12",
+      "estudio": "cultura",
+      "anoLancamento": "2008"
+    },
+    {
+      "id": null,
+      "nomeSerie": "cuca",
+      "numTemporadas": "12",
+      "estudio": "cultura",
+      "anoLancamento": "2008"
+    },
+    {
+      "id": null,
+      "nomeSerie": "cuca",
+      "numTemporadas": "12",
+      "estudio": "cultura",
+      "anoLancamento": "2008"
     }
   ]
 }
